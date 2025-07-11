@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Satan</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('back.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 50px;
+        }
+        .container {
+            text-align: right;
+        }
+        a {
+            display: inline-flex;
+            align-items: center;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            font-size: 1.5rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid crimson;
+        }
+        a img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">SATAN</h1>
+
+        <div id="user-info" style="display: none;">
+            <img id="avatar" src="" alt="Steam Avatar" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+            <span id="username"></span>
+        </div>
+
+        <a id="steam-link" href="/auth/steam">
+            <img src="steam-logo.png" alt="Steam Logo"> CONNECT
+        </a>
+        <a id="second-link" href="https://discord.gg/XkkxR6pmHB " target="_blank">
+            <img src="discord.png" alt="Discord Logo"> DISCORD
+        </a>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
