@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('back.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.container {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid crimson;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
